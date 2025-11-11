@@ -1,7 +1,9 @@
-# my-tutor-chatbot/requirements.txt
-langchain-google-genai
-langchain-community
-chromadb
+# requirements.txt
 streamlit
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+chromadb
 pypdf
 python-docx
