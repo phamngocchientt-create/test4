@@ -16,7 +16,10 @@ if "GOOGLE_API_KEY" not in os.environ:
     st.error("Lỗi: Vui lòng thiết lập GOOGLE_API_KEY trong Streamlit Secrets hoặc biến môi trường.")
     st.stop()
 
-DOCUMENT_FOLDER = "documents"
+# Lấy đường dẫn tuyệt đối đến thư mục chứa file app.py
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+# Nối đường dẫn đó với thư mục "documents"
+DOCUMENT_FOLDER = os.path.join(APP_DIR, "documents")
 
 
 # ---------------------------------------------------------------------
