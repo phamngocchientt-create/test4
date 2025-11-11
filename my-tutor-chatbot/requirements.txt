@@ -4,6 +4,8 @@ langchain
 langchain-core
 langchain-community
 langchain-google-genai
+langchain-text-splitters
 chromadb
 pypdf
 python-docx
+
